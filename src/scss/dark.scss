@@ -1,0 +1,40 @@
+/************************************************
+                Argon Dark Theme
+             Originally made by jchue
+  Under the Internet Systems Consortium License
+  https://github.com/jchue/argon-webtrees-theme
+
+       Forked and maintained by Evan Galli
+             Under the same licence
+ https://github.com/06Games/Webtrees-ArgonLight
+************************************************
+                Main dark theme
+***********************************************/
+
+//@import "node_modules/@forevolve/bootstrap-dark/scss/bootstrap-dark";
+
+:root{
+    --bs-body-bg: #28282a;
+
+    --text: #ccc;
+    --text-small: #888;
+
+    --selectable: #33363e;
+    --selectable-hover: #3d4048;
+    --selectable-disabled: #2b2e35;
+
+    --tint: #30363e;
+    --tint-light: #36414f;
+
+    /* Tree */
+    /*--sex-m-bg: #235789;*/
+    --sex-m-bg: #598cb9;
+    /*--sex-f-bg: #9c6d87;*/
+    --sex-f-bg: #d08ab1;
+    --sex-u-bg: #6d6d6d;
+
+    /* Bootstrap */
+    --primary: #154f99;
+    --secondary: #3b3b40;
+    --light: #545a60;
+}

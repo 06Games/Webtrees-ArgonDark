@@ -1,0 +1,33 @@
+{
+    "name": "evang/argon-dark",
+    "description": "A dark theme for Webtrees based on Argon Design System",
+    "homepage": "https://github.com/06Games/Webtrees-ArgonDark",
+    "readme": "./README.md",
+    "license": "ISC",
+    "type": "webtrees-module",
+    "keywords": [
+        "webtrees",
+        "theme"
+    ],
+    "authors": [
+        {
+            "name": "Evan Galli",
+            "role": "Developer",
+            "homepage": "https://github.com/06Games"
+        },
+        {
+            "name": "jchue",
+            "role": "Initial Developer",
+            "homepage": "https://github.com/jchue"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EvanG\\Themes\\DarkTheme\\": ""
+        }
+    },
+    "require": {
+        "fisharebest/webtrees": "^2.0",
+        "evang/argon-light": "dev-main"
+    }
+}
