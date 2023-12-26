@@ -11,6 +11,6 @@
  https://github.com/06Games/Webtrees-ArgonDark
 ***********************************************/
 
-namespace EvanG\Themes\DarkTheme;
-include "DarkModule.php";
-return new DarkTheme();
+namespace EvanG\Themes\Argon;
+include "ArgonDarkTheme.php";
+return new ArgonDarkTheme();
